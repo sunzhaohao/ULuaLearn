@@ -200,10 +200,10 @@
     <None Include="Assets\uLua\Examples\04_ScriptsFromFile\ScriptsFromFile01.lua.txt" />
     <None Include="Assets\uLua\Lua\System\readme.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>E:/unity Coding/learn/2DShape/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>E:/unity Coding/learn/ULua/ULuaLearn/2DShape/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>E:/unity Coding/learn/2DShape/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>E:/unity Coding/learn/ULua/ULuaLearn/2DShape/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -401,7 +401,7 @@
       <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Debuger">
-      <HintPath>E:/unity Coding/learn/2DShape/Assets/Plugins/Debuger.dll</HintPath>
+      <HintPath>E:/unity Coding/learn/ULua/ULuaLearn/2DShape/Assets/Plugins/Debuger.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/sunzhaohenan/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>

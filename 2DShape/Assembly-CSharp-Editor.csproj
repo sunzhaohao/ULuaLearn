@@ -71,10 +71,10 @@
     <Compile Include="Assets\uLua\Editor\Wrap\ToLua_UnityEngine_Object.cs" />
     <Compile Include="Assets\uLua\Editor\WrapFile.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>E:/unity Coding/learn/2DShape/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>E:/unity Coding/learn/ULua/ULuaLearn/2DShape/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>E:/unity Coding/learn/2DShape/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>E:/unity Coding/learn/ULua/ULuaLearn/2DShape/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -314,7 +314,7 @@
       <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Debuger">
-      <HintPath>E:/unity Coding/learn/2DShape/Assets/Plugins/Debuger.dll</HintPath>
+      <HintPath>E:/unity Coding/learn/ULua/ULuaLearn/2DShape/Assets/Plugins/Debuger.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/sunzhaohenan/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>

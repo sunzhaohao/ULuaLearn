@@ -300,7 +300,7 @@ namespace LuaInterface
                 Assembly assembly = null;
 
                 //assembly = Assembly.GetExecutingAssembly();
-
+                
                 try
                 {
                     assembly = Assembly.Load(assemblyName);
