@@ -62,6 +62,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scenes\CSCallLua.cs" />
+    <Compile Include="Assets\Scenes\LuaAndCSharp\test\A.cs" />
+    <Compile Include="Assets\Scenes\LuaAndCSharp\test\testLuaCallCS.cs" />
+    <Compile Include="Assets\Scenes\LuaAndCSharp\Utils\CSharpCallLua.cs" />
+    <Compile Include="Assets\Scenes\LuaAndCSharp\Utils\LuaCallCSharp.cs" />
     <Compile Include="Assets\Scenes\LuaCallCS.cs" />
     <Compile Include="Assets\Scenes\Program.cs" />
     <Compile Include="Assets\scripts\2DShape\Curve.cs" />

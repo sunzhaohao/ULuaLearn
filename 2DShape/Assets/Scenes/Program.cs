@@ -2,12 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine  ;
 
-    public class Program
+interface ICSObject
+{
+     object getRef();
+}
+    public class Program :ICSObject
     {
         public int count = 5;
         public static double Add(double a, double b)
         {
             return  a + b;
+        }
+        public double Sub(double a, double b)
+        {
+            return a - b;
         }
         public double Double(double num)
         {
@@ -19,10 +27,18 @@ using UnityEngine  ;
             return new Program();
         }
 
+     
         public int getCount()
         {
             return count;
         }
+
+        public object getRef()
+        {
+            return this;
+        }
+
+      
     }
 
 
