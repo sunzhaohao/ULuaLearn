@@ -27,7 +27,6 @@ interface ICSObject
             return new Program();
         }
 
-     
         public int getCount()
         {
             return count;
@@ -43,3 +42,10 @@ interface ICSObject
 
 
 
+public static class AAA
+{
+    public static object GetRef(this object obj)
+    {
+        return obj;
+    }
+}

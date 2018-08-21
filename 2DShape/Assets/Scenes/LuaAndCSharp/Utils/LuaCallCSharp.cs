@@ -4,7 +4,6 @@ using UnityEngine;
 using LuaInterface;
 public class LuaCallCSharp
 {
-
     private LuaState luaState = new LuaState();
 
     public string GetArgumentsScript(object[] arguments)
@@ -25,7 +24,7 @@ public class LuaCallCSharp
         
         return allParams;
     }
-   
+    
     // 静态方法
     public object CallStaticFunc(string script, object csObject, string funcName, object[] arguments)
     {
