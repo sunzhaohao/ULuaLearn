@@ -19,9 +19,17 @@ public class testLuaCallCS : MonoBehaviour {
         /////////////////////
 	    arguments = new object[] { 2344, 265 };
        
-	    result = callCS.CallFunction("", pro, "Sub", arguments);
+        ScriptFile scriptFile=new ScriptFile("firstScript.txt");
+        scriptFile.AddScript("print('hello world')");
+
+        result = callCS.CallFunction(scriptFile, pro, "Sub", arguments);
         print(result);
-	}
+        //在调用C#函数之后调用lua脚本
+        scriptFile.AddScript("print('lua scipt:',result)");
+
+        callCS.CallLuaScript();
+        scriptFile.ClearAllScripts();
+    }
 
     // Update is called once per frame
     void Update () {

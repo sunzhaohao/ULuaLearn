@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scenes\LuaAndCSharp\test\testLuaCallCS.cs" />
     <Compile Include="Assets\Scenes\LuaAndCSharp\Utils\CSharpCallLua.cs" />
     <Compile Include="Assets\Scenes\LuaAndCSharp\Utils\LuaCallCSharp.cs" />
+    <Compile Include="Assets\Scenes\LuaAndCSharp\Utils\ScriptFile.cs" />
     <Compile Include="Assets\Scenes\LuaCallCS.cs" />
     <Compile Include="Assets\Scenes\Program.cs" />
     <Compile Include="Assets\scripts\2DShape\Curve.cs" />

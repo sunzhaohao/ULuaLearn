@@ -1,11 +1,14 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using LuaInterface;
+using UnityEngine.Experimental.PlayerLoop;
+
 public class LuaCallCSharp
 {
     private LuaState luaState = new LuaState();
-
+    private ScriptFile scriptFile;
     public string GetArgumentsScript(object[] arguments)
     {
         string allParams = "";
@@ -40,9 +43,13 @@ public class LuaCallCSharp
     }
 
     // 不能调用静态方法
-    public object CallFunction(string script,object csObject, string funcName, object[] arguments)
+    public object CallFunction(ScriptFile script,object csObject, string funcName, object[] arguments)
     {
-        luaState.DoString(script);
+        this.scriptFile = script;
+        if (scriptFile != null)  
+            luaState.DoString(scriptFile.getFileInfo());
+        
+        
         string getRefFunc = "getRef";
         luaState.RegisterFunction(getRefFunc, csObject, csObject.GetType().GetMethod(getRefFunc));
    
@@ -52,5 +59,9 @@ public class LuaCallCSharp
     
         return luaState["result"];
     }
-
+    // 执行lua 脚本
+    public void CallLuaScript()
+    {
+        luaState.DoString(scriptFile.getFileInfo());
+    }
 }
